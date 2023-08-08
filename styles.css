@@ -1,0 +1,280 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 625;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.booking {
+  color:rgb(74, 103, 251);;
+}
+
+.logo i {
+  font-size: 40px;
+  margin-right: 20px;
+  color: rgb(74, 103, 251);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: larger;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: solid;
+  font-size: 1.1rem ;
+  margin-left: 5px;
+}
+
+.nav-icon i {
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.hero-section {
+  background-image: url('https://commonslibrary.parliament.uk/content/uploads/2018/04/trains.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  padding: 12px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  max-width: 288px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+.footer-column ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer-column p {
+  margin-top: 15px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  color: #fcf7f7;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    justify-content: center;
+  }
+
+  .footer-column {
+    max-width: 100%;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.ry-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.sub-header {
+  background-color: #464545;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sub-header h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sub-header .input-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sub-header .input-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  padding-right: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sub-header .input-box.date-box {
+  position: relative;
+}
+
+
+.sub-header .search-button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-container {
+  background-color: #a7f456;
+  font-size: 12px;
+  color: #0c0505;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+/* Flexbox styles for the train table */
+.train-table {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-header p,
+.table-row p {
+  flex-basis: calc(100% / 6);
+  text-align: center;
+}
+
+.table-header {
+  font-weight: 650;
+  background-color: #4690f8;
+  border-bottom: 2px solid #494747;
+  border-top: 2px solid #fcfafa;
+}
+
+.content_p {
+  background-color: #060606;
+  padding: 40px;
+  margin-top: -18px;
+  color: beige;
+  font-size: large;
+  text-align: justify;
+}
+
+@media (max-width: 1050px) {
+  .sub-header .input-box-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  
+  .sub-header .input-box {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}

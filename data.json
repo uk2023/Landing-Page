@@ -1,0 +1,15 @@
+[
+    {
+      "station": "Delhi",
+      "info": "Information about Station A"
+    },
+    {
+      "station": "Mumbai",
+      "info": "Information about Station B"
+    },
+    {
+      "station": "Varanasi",
+      "info": "Information about Station C"
+    }
+]
+  
